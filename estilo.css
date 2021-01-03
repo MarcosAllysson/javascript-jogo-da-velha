@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: yellowgreen;
+}
+
+p {
+    float: left;
+    margin-right: 10px;
+}
+
+/* narrando jogo */
+#mostrador{
+    margin: auto; /*centralizar tabuleiro*/
+    margin-top: 50px;
+    width: 252px;
+    height: 80px;
+}
+
+/* tabuleiro */
+.espaco{
+    width: 80px;
+    height: 60px; /* diminuir a altura do padding pra não deformar o tabuleiro */
+    border: 2px solid #000;
+    float: left;
+    text-align: center; /*alinhar imagem ao centro - horizontal*/
+    padding-top: 20px;
+}
+
+.tabuleiro{
+    width: 252px; /* fazer com que fica apenas 3 peças por linha. Multiplicando pelo valor do comprimento */
+    height: 252px;
+    margin: auto; /*centralizar tabuleiro*/
+}

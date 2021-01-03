@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Jogo da Velha - JavaScript </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    
+    <!-- "narrando jogo..." -->
+    <div id="mostrador">
+        <p> Jogador joga... </p>
+        <img src="" alt="Imagem" border="0" height="50">
+    </div>
+
+    <!-- tabuleiro -->
+    <div class="tabuleiro">
+        <!-- peças do tabuleiro -->
+        <div id="linha-a1" class="espaco" jogada=""></div> <!-- JOGADA: recebe a jogada de X ou O -->
+        <div id="linha-a2" class="espaco" jogada=""></div>
+        <div id="linha-a3" class="espaco" jogada=""></div>
+
+        <div id="linha-b1" class="espaco" jogada=""></div>
+        <div id="linha-b2" class="espaco" jogada=""></div>
+        <div id="linha-b3" class="espaco" jogada=""></div>
+
+        <div id="linha-c1" class="espaco" jogada=""></div>
+        <div id="linha-c2" class="espaco" jogada=""></div>
+        <div id="linha-c3" class="espaco" jogada=""></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
