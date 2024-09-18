@@ -1,12 +1,11 @@
-# Jogo da Velha em JavaScript
+# Tic Tac Toe in JavaScript
 
-## Descrição do projeto:
-O objetivo deste projeto é construir uma implementação em uma interface interativa para executar uma aplicação web local.
+## Project description:
+The goal of this project is to build an implementation in an interactive interface to run a local web application.
 
+## Development process:
+A complete and navigable website was developed in a single HTML page, using CSS and images.
 
-## Processo de desenvolvimento:
-Desenvolvido um site completo e navegável em uma única página HTML, utilizando CSS e imagens. 
-A implementação do projeto foi desenvolvido exclusivamente em Javascript.
+The project implementation was developed exclusively in Javascript.
 
-
-- Veja o jogo [disponível no Github](https://marcosallysson.github.io/javascript-jogo-da-velha/)
+- See the game [available on Github](https://marcosallysson.github.io/javascript-jogo-da-velha/)
